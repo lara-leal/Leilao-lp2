@@ -14,6 +14,10 @@ public class Lance {
 	private Long id;
 	private String valor;
 	
+	public Lance() {
+		
+	};
+	
 	public Lance(Long id, String valor) {
 		super();
 		this.id = id;

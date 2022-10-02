@@ -23,6 +23,10 @@ public class Veiculo {
 	@JoinColumn(name = "id_leilao")
 	private Leilao leilao;
 	
+	public Veiculo() {
+		
+	};
+	
 	public Veiculo(Long id, String dataFabricacao, String modelo, String placa, String tipoVeiculo, String descricao) {
 		super();
 		this.id = id;

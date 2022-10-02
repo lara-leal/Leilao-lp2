@@ -15,6 +15,9 @@ public class Cliente {
 	private String cpf;
 	private String certificadoDig;
 	
+	public Cliente() {
+		
+	};
 	
 	public Cliente(Long id, String name, String email, String cpf, String certificadoDig) {
 		super();

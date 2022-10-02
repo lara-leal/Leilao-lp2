@@ -23,6 +23,10 @@ public class Imovel {
 	@JoinColumn(name = "id_leilao")
 	private Leilao leilao;
 	
+	public Imovel() {
+		
+	};
+	
 	public Imovel(Long id,String endereco, String cidade, String estado, Double areaTerreno, String descricao, String tipoImovel) {
 		super();
 		this.id = id;

@@ -31,7 +31,9 @@ public class Leilao {
 	@OneToMany(mappedBy = "leilao")
 	private List<Veiculo> veiculos;
 	
-	
+	public Leilao() {
+		
+	};
 	
 	
 	public Leilao(Long id, Integer numLeilao, Integer loteProdutos, String instituicaoFin, Date data, String local) {

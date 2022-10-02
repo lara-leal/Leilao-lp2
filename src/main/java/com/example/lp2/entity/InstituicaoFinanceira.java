@@ -19,6 +19,10 @@ public class InstituicaoFinanceira {
 	
 	private String endereco;
 	
+	public InstituicaoFinanceira() {
+		
+	};
+	
 	
 
 	public InstituicaoFinanceira(Long id,  String cnpjEntidadeFinanceira, String nome, String endereco) {
